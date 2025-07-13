@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="traffic_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="traffic_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="116.300 ns"></ZoomStartTime>
+      <ZoomEndTime time="758.301 ns"></ZoomEndTime>
+      <Cursor1Time time="720.800 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="180"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/traffic_tb/i_NS_count" type="array">
+      <obj_property name="ElementShortName">i_NS_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i_NS_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_tb/i_EW_count" type="array">
+      <obj_property name="ElementShortName">i_EW_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_EW_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_tb/yellow_count" type="array">
+      <obj_property name="ElementShortName">yellow_count[1:0]</obj_property>
+      <obj_property name="ObjectShortName">yellow_count[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_tb/NS_vehicle_detect" type="logic">
+      <obj_property name="ElementShortName">NS_vehicle_detect</obj_property>
+      <obj_property name="ObjectShortName">NS_vehicle_detect</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_tb/EW_vehicle_detect" type="logic">
+      <obj_property name="ElementShortName">EW_vehicle_detect</obj_property>
+      <obj_property name="ObjectShortName">EW_vehicle_detect</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_tb/NS_red" type="logic">
+      <obj_property name="ElementShortName">NS_red</obj_property>
+      <obj_property name="ObjectShortName">NS_red</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_tb/NS_yellow" type="logic">
+      <obj_property name="ElementShortName">NS_yellow</obj_property>
+      <obj_property name="ObjectShortName">NS_yellow</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_tb/NS_green" type="logic">
+      <obj_property name="ElementShortName">NS_green</obj_property>
+      <obj_property name="ObjectShortName">NS_green</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_tb/EW_red" type="logic">
+      <obj_property name="ElementShortName">EW_red</obj_property>
+      <obj_property name="ObjectShortName">EW_red</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_tb/EW_yellow" type="logic">
+      <obj_property name="ElementShortName">EW_yellow</obj_property>
+      <obj_property name="ObjectShortName">EW_yellow</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_tb/EW_green" type="logic">
+      <obj_property name="ElementShortName">EW_green</obj_property>
+      <obj_property name="ObjectShortName">EW_green</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
