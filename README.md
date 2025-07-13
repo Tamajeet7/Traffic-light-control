@@ -45,7 +45,7 @@ This project simulates a **Traffic Light Control System** using Verilog HDL, bui
 - Observe the behavior of lights (`*_red`, `*_yellow`, `*_green`) based on counters and vehicle inputs.
 - Waveform screenshots included for reference.
 
-> ![Waveform](Screenshots/Screenshot 2025-07-13 123710.png)
+> ![Waveform](Screenshot 2025-07-13 123710.png)
 
 ---
 
